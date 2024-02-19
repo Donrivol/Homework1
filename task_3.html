@@ -5,42 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Market</title>
 </head>
 <body>
-<style>
-    body {
-        background-color: #fff;
-        color: #333;
-        font:
-                1.2em / 1.5 Helvetica Neue,
-                Helvetica,
-                Arial,
-                sans-serif;
-        padding: 0;
-        margin: 0;
-    }
 
-    .breadcrumb {
-        padding: 0 0.5rem;
-    }
-
-    .breadcrumb ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    .breadcrumb li:not(:last-child)::after {
-        display: inline-block;
-        margin: 0 0.25rem;
-        content: "→";
-    }
-</style>
 <header>
-    <img src="img/logotype.png" alt="logotype">
+    <img src="img/logotype.png" alt="logotype" class="logotype">
     <nav>
         <ul>
             <li>Home</li>
@@ -53,9 +24,9 @@
 </header>
 
 <main>
-    <nav aria-label="Breadcrumb" class="breadcrumb">
+    <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#" >Home</a></li>
             <li><a href="#">Category</a></li>
             <li><a href="#">Sub Category</a></li>
             <li><a href="#">Type</a></li>
@@ -64,6 +35,54 @@
     </nav>
 </main>
 
+<section>
+    <h1>
+        Взуття
+    </h1>
+    <h2>
+        Крок у зручності: Розділ взуття
+    </h2>
+    <p>
+        Індустрія взуття завжди привертала увагу своєю різноманітністю та інноваційністю. Від традиційного до сучасного, взуття відображає культурні та модні тенденції суспільства. У цій категорії ви знайдете широкий вибір стилів, матеріалів та функцій взуття, що задовольнять потреби різних споживачів. Від кросівок та кедів до туфель та черевиків, тут ви знайдете все, щоб виразити свій стиль та забезпечити комфорт у будь-яких умовах.
+    </p>
+    <figure>
+        <img src="img/nike.jpg" alt="nike">
+        <figcaption>
+            <ul>
+                <a href="#">Nike barhatnuy tyagi</a>
+                <li>1000$</li>
+                <li>Підошва з подушкою Air Max: Однією з головних особливостей цих кросівок є наявність видимої подушки Air Max у підошві, що забезпечує відмінну амортизацію та комфорт при кожному кроці.</li>
+                <li>41 розмір</li>
+                <li>В наявності</li>
+            </ul>
+        </figcaption>
+    </figure>
+</section>
+
+<section>
+    <aside>
+        <p>Реклама</p>
+        <figure>
+            <img src="img/girl.jpg" alt="Марія" class="girl">
+            <a href="#">Познайомся прям зараз!</a>
+            <figure>Марія, 100 метрів від вас</figure>
+        </figure>
+    </aside>
+
+</section>
+
+<footer>
+    <p>© 2024 Nike. Усі права захищені.</p>
+
+    <nav>
+        <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+</footer>
 
 </body>
 </html>
